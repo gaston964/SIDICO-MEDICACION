@@ -5,10 +5,23 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family:Cambria, 'Times New Roman', serif;
   background-color: #f4f4f4;
 }
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 105px;
+}
+.home>h1{
+  margin-bottom: 50px;
+}
+.home>ul>li{
+  text-align: center;
+}
 .PM{
+  margin: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +59,7 @@ li {
   background-color: #fff;
   padding: 15px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 25px;
   margin-bottom: 10px;
 }
 
