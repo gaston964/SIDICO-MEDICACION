@@ -42,7 +42,7 @@ const SearchBar = () => {
                             <p>Nombre: {item.Nombre}</p>
                             <p>Insumo: {item.Insumo}</p>
                             <p>SbIn: {item.SbIn}</p>
-                            <p>Cuerpo: {item.Cuerpo}</p>
+                            <strong>Cuerpo: {item.Cuerpo}</strong>
                             <hr />
                         </li>
                     ))}
