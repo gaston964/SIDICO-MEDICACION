@@ -4,7 +4,6 @@ import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import SearchBar from './Components/SearchBar.jsx'
-import Mapa from './Components/Mapa.jsx'
 import Home from './Components/Home.jsx'
 
 const router = createBrowserRouter([
@@ -15,10 +14,6 @@ const router = createBrowserRouter([
   {
     path: "buscador",
     element: <SearchBar/>,
-  },
-  {
-    path: "mapa",
-    element: <Mapa/>,
   }
 ])
 
