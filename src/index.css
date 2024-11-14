@@ -74,6 +74,16 @@ body {
 .searchBarContainer > div {
   margin-top: 20px;
 }
+.classification-icons {
+  display: flex;
+  gap: 10px; /* Espacio entre los iconos */
+  align-items: center;
+}
+
+.classification-icons img {
+  width: 80px; /* Tamaño uniforme para las imágenes */
+  height: auto;
+}
 
 input {
   padding: 10px;
